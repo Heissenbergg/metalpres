@@ -1,0 +1,102 @@
+#products{
+	position: absolute;
+	left: 0px;
+	top: 120px;
+	width: 100%;
+	height: 1000px;
+}
+
+#products .productsHeader{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+}
+#products .productsHeader h4{text-align: center; font-size: 30px; margin: 0px; margin-top: 20px; font-size: fontic;}
+#products .table{
+	position: absolute;
+	left: 5%;
+	top: 100px;
+	width: 90%;
+	height: 420px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+	text-align: center;
+}
+#products .table2{margin-top: 500px;}
+
+
+#products .table .tableRow{
+	position: absolute;
+	left: 10%;
+	top: 0px;
+	width: 20%;
+	height: 100%;
+}
+
+#products .table .tableRow2{margin-left: 20%;}
+#products .table .tableRow3{margin-left: 40%;}
+#products .table .tableRow4{margin-left: 60%;}
+
+#products .table .tableRow .tableRowHeader{
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	width: 100%;
+	height: 50px;
+}
+
+#products .table .tableRow .tableRowHeader h4{
+	margin: 0px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+#products .table .tableRow  .tableRowBody{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 100%;
+	height: calc(100% - 100px);
+}
+#products .table .tableRow .tableRowBody p{font-size: 14px;}
+#products .table .tableRow .tableRowBody .tableRotated{
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    left: calc(50% - 100px);
+    top: calc(50% - 50px);
+}
+
+#footer{
+	top: 1100px;
+}
+
+@media screen and (max-width: 1300px){
+	#products .table .tableRow .tableRowHeader h4{font-size: 15px;}
+}
+
+@media screen and (max-width: 1200px){
+	#products .table .tableRow .tableRowHeader h4{font-size: 14px;}
+	#products .table .tableRow .tableRowBody p{font-size: 12px;}
+}
+#products .table .tableRow2{margin-left: 20%;}
+#products .table .tableRow3{margin-left: 40%;}
+#products .table .tableRow4{margin-left: 60%;}
+
+@media screen and (max-width: 800px){
+	#products .table{height: 340px;}
+	#products .table2{margin-top: 400px;}
+	#products .table .tableRow{left: 0px; width: 25%;}
+	#products .table .tableRow2{margin-left: 25%;}
+	#products .table .tableRow3{margin-left: 50%;}
+	#products .table .tableRow4{margin-left: 75%;}
+	#products .table .tableRow .tableRowHeader h4{font-size: 12px;}
+	#products .table .tableRow .tableRowBody p{font-size: 10px;}
+	#footer{top:950px;}
+}

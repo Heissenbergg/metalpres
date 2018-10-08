@@ -1,0 +1,18 @@
+#products{height: 800px}
+#products .table{
+	height: 340px;
+}
+
+#footer{
+	top: 600px;
+}
+
+@media screen and (max-width: 800px){
+	#products .table{
+		height: 260px;
+	}
+
+	#footer{
+		top: 520px;
+	}
+}

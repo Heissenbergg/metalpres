@@ -1,0 +1,66 @@
+.singlePostPart{
+	position: absolute;
+	left: 0%;
+	top: 0px;
+	top: 80%;
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+
+.singlePostPart #singlePostPartHeader{
+	position: relative;
+	left: 10%;
+	top: 0px;
+	width: 80%;
+	height: 110px;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	padding-top: 28px;
+}
+
+.singlePostPart #singlePostPartHeader h4{
+	font-family: fontic;
+	font-size: 25px;
+	margin: 0px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.singlePostPart #singePartBody{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	left: 0px;
+	height: auto;
+}
+.singlePostPart #singePartBody p{
+	font-family: fontic;
+	margin-left: 10%;
+	width: 80%;
+	text-align: center;
+	margin-top: 40px;
+	padding-bottom: 40px;
+}
+
+.singlePostPart #footer{
+	position: relative;
+}
+
+#slider img{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 0px;
+    top: 0px; 
+    right: 0px;
+    bottom: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px){
+	#slider #leftArrow,
+    #slider #rightArrow{left:10px; width: 60px; height: 60px; display: block;}
+    #slider #rightArrow{left: calc(100% - 70px);}
+}

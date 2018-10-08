@@ -1,0 +1,25 @@
+#products{height: 800px}
+
+#products .table{
+	height: 350px;
+}
+#products .table .tableRow{
+	width: 30%;
+	left: 0px;
+}
+#products .table .tableRow2{margin-left: 0px;}
+#products .table .tableRow3{margin-left: 35%;}
+#products .table .tableRow4{margin-left: 70%;}
+#footer{
+	top: 620px;
+}
+
+@media screen and (max-width: 800px){
+	#products .table{
+		height: 280px;
+	}
+
+	#footer{
+		top: 520px;
+	}
+}

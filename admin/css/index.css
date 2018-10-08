@@ -1,0 +1,44 @@
+#numberOfViews{
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	width: calc(100% - 200px);
+	height: 240px;
+	border: 1px solid rgba(0,0,0,0.3);
+	margin-bottom: 50px;
+}
+#numberOfViews h4{text-align: center; font-size: 25px; margin-top: 10px;}
+#numberOfViews h1{text-align: center; font-size: 80px; margin-top: 30px; font-weight: bold; color: #FF0144}
+#numberOfVideoViews{
+	position: absolute;
+	left: 200px;
+	top: 900px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 20px solid #1abc9c;
+	margin-bottom: 50px;
+}
+
+#otherStatistics{
+	position: absolute;
+	right: 200px;
+	top: 900px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 20px solid #1abc9c;
+	margin-bottom: 50px;
+
+}
+
+#numberOfVideoViews h1, #otherStatistics h1{
+	text-align: center;
+	font-size: 60px;
+	color: #FF0144;
+	margin-top: 75px;
+}
+#numberOfVideoViews h1:hover, #otherStatistics h1:hover{cursor: pointer;}
+#chart_div{
+	margin-top: 300px;
+}

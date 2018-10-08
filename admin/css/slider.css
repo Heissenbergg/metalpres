@@ -1,0 +1,36 @@
+section #slides{
+	position: absolute;
+	left: 0px;
+	top: 180px;
+	width: 100%;
+	height: 500px;
+}
+
+section #slides .photo{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 200px;
+	height: 120px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+section #slides .photo img{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 200%;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+
+section #slides .photo .delete{
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	width: 15px;
+	height: 15px;
+	background: #333;
+}

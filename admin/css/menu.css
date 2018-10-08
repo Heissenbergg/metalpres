@@ -1,0 +1,61 @@
+#menu{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 260px;
+	height: 100%;
+	background: #333;
+}
+
+#menu ul{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu ul li{
+	width: 100%;
+	height: 40px;
+	list-style: none;
+}
+
+#menu ul li a{
+	display: block;
+	color: #fff;
+	margin-left: 20px;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+section{
+	position: absolute;
+	left: 280px;
+	top: 0px;
+	width: calc(100% - 280px);
+	height: 100%;
+}
+
+section #sectioNSlider{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+}
+
+section #sectioNSlider h4{
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+section #sectionBody{
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	width: 100%;
+	height: calc(100% - 100px);
+}
